@@ -1,0 +1,214 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*big container for mobile */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/*logo */
+.ikea-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*phrase*/
+.t1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+/*first js library*/
+.rectangle {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #003399;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin-bottom: 20px;
+}
+
+/*big text*/
+.t2 {
+    position: relative;
+    z-index: 10;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+/*wave*/
+.wave-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+/*third js library*/
+#myCanvas {
+    width: 100%;
+    height: 100px;
+}
+
+/*text for the js*/
+#textOverlay {
+    position: absolute;
+    top: 40px;
+    left: 140px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+/*text for the common elements*/
+.t4 {
+    width: 100%;
+    height: 100px;
+    background-color: #ffcc00;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.t5 {
+    width: 100%;
+    height: 100px;
+    background-color: #003399;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*fourth js library */
+#box {
+    margin-top: 40px;
+    width: 100%;
+    height: 130vh;
+    background: #003399;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/*text*/
+.t6 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+.t7 {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+
+}
+.image1 {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+
+/*pc view*/
+@media screen and (min-width: 600px) {
+    .container {
+        max-width: 900px; 
+        padding: 40px;
+    }
+
+    .ikea-logo {
+        margin-top: 40px;
+        margin-bottom: 40px; 
+    }
+
+    .t1 {
+        font-size: 18px;
+        margin-bottom: 30px; 
+    }
+
+    .rectangle {
+        height: 300px; 
+        margin-bottom: 30px; 
+    }
+
+    .t2 {
+        font-size: 60px; 
+    }
+
+    #myCanvas {
+        height: 118px;
+    }
+    
+    #textOverlay {
+        top: 50px; 
+        left: 80px; 
+        font-size: 18px; 
+    }
+
+    .t4, .t5 {
+        height: 120px;
+        font-size: 18px; 
+    }
+
+    #box {
+        margin-top: 60px; 
+        height: 200vh; 
+    }
+
+    .t6 {
+        font-size: 24px; 
+    }
+
+    .t7 {
+        font-size: 16px; 
+        line-height: 25px; 
+        margin: 40px; 
+    }
+
+    .image1 {
+        width: 150px; 
+        height: 150px; 
+        margin-top: 40px;
+    }
+}

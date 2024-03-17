@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<!--style.css-->
+	<link rel="stylesheet" href="css/style.css">
+	<!--style for glide js-->
+	<link rel="stylesheet" href="css/glide.core.min.css">
+	<link rel="stylesheet" href="css/glide.theme.min.css">
+
+	<title>Ikea</title>
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@3.0.0/reset.min.css" />
+	<!--fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+</head>
+<header>
+	<!--logo-->
+	<div class="ikea-logo">
+		<img src="images/logo.png" alt="logo-ikea" width="200" height="80">
+	</div>
+	<!--phrase-->
+	<h1 class="t1">Find what you need to Bring Home to Life</h1>
+</header>
+
+<body>
+	<!--big container for mobile-->
+	<div class="container">
+		<!--first js library-->
+		<div class="rectangle">
+			<h1 class="t2">SPRING SALE</h1>
+			<svg class="wave-top" width="100" viewBox="0 0 1200 250">
+				<path fill-rule="evenodd" clip-rule="evenodd"
+					d="M0 108.306L50 114.323C100 120.34 200 132.374 300 168.476C400 204.578 500 264.749 600 246.698C700 228.647 800 132.374 900 108.306C1000 84.2382 1100 132.374 1150 156.442L1200 180.51V-8.5451e-06H1150C1100 -8.5451e-06 1000 -8.5451e-06 900 -8.5451e-06C800 -8.5451e-06 700 -8.5451e-06 600 -8.5451e-06C500 -8.5451e-06 400 -8.5451e-06 300 -8.5451e-06C200 -8.5451e-06 100 -8.5451e-06 50 -8.5451e-06H0V108.306Z"
+					fill="#ffcc00" />
+			</svg>
+		</div>
+		<!--second js library-->
+		<div class="glide">
+			<div class="glide__track" data-glide-el="track">
+				<ul class="glide__slides">
+					<li class="glide__slide">
+						<img src="images/slide1.jpg" alt="1">
+						<!--third js library-->
+						<div style="position: relative;">
+							<canvas id="myCanvas"></canvas>
+							<div id="textOverlay">New IKEA Family offers are here!</div>
+						</div>
+					</li>
+					<li class="glide__slide">
+						<img src="images/slide2.jpg" alt="2">
+						<h1 class="t4">High standards. Lower prices.</h1>
+					</li>
+					<li class="glide__slide">
+						<img src="images/slide3.jpg" alt="3">
+						<h1 class="t5">Welcome home to your sofa</h1>
+					</li>
+				</ul>
+			</div>
+			<div class="glide__arrows" data-glide-el="controls">
+				<button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+				<button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+			</div>
+		</div>
+		<!--fourth js library-->
+		<div id="box">
+			<img src="images/image1.jpg" alt="image1" width="439" height="587">
+			<h2 class="t6">Every(bunny) loves springtime!</h2>
+			<p class="t7">Turn an egg-colouring session into a shared event: felt-tip pens and watercolours, children and
+				grown-ups. Ready, set, paint! After the eggs-travaganza, prepare for your family's Easter celebration
+				with a Spring-themed table setting. Bring out your favourite tableware and glassware and let your Easter
+				decor reflect the seasonal aesthetic of pastels, eggs, and budding greenery.</p>
+		</div>
+	</div>
+
+	<!--script tags :)-->
+	<script src="js/anime.min.js"></script>
+	<script src="js/glide.min.js"></script>
+	<script src="js/granim.min.js"></script>
+	<script src="js/choreographer.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
